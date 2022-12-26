@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+:root {
+    --mainColor: #0A3871;
+    --secundaryColor: #D8DFE8;
+    --whiteColor: #FFFFFF;
+    --grayColor: #CCCCCC;
+}
+
+body {
+    background: var(--whiteColor);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+}
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+}
+
+.head #logo{
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
+#logo {
+    position: absolute;
+    left: 50px;
+    top: 25px;
+    bottom: 0%;
+}
+/* End Head */
+
+.main {
+    display: flex;
+    background: var(--whiteColor);
+    padding: 20px;
+    justify-content: space-around;
+    margin-bottom: 90px;
+}
+
+#inputText {
+    background: var(--secundaryColor);
+    width: 500px;
+    height: 300px;
+
+    border: 0px;
+    border-radius: 32px;
+
+    box-shadow: 1px 1px 5px var(--grayColor);
+    padding: 20px;
+}
+
+.decoder {
+    background: var(--whiteColor);
+    width: 300px;
+    height: 400px;
+    border-radius: 32px;
+    justify-content: space-around;
+    margin-left: 50px;
+    box-shadow: 1px 2px 10px var(--grayColor);
+}
+
+.decoder #message {
+    font-size: 24px;
+    color: var(--mainColor);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.decoder #texInformation {
+    font-size: 12px;
+    color: var(--mainColor);
+    text-align: center;
+}
+
+#illustration {
+    width: 300px;
+    height: 250px;
+    padding: 5px;
+}
+
+.return {
+    padding: 20px;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+
+.return #returnText {
+    text-align: center;
+    padding-bottom: 275px;
+    border: 0px solid;
+}
+
+#alert {
+    font-size: 12px;
+    justify-content: space-around;
+    padding: 10px 0;
+    color: gray;
+}
+/* End Main */

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+:root {
+    --mainColor: #0A3871;
+    --secundaryColor: #D8DFE8;
+    --whiteColor: #FFFFFF;
+    --grayColor: #CCCCCC;
+}
+
+.endPage {
+    padding: 20px;
+    margin: inherit;
+}
+
+footer {
+    text-align: center;
+    background: var(--mainColor);
+}
+
+.copyright {
+    font-family: 'Inter';
+    color: var(--whiteColor);
+    font-size: 14px;
+    font: bold;
+}

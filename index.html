@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Decodificador de Texto</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/button.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <link rel="stylesheet" href="./css/text.css">
+    </head>
+    <body>
+        <main>
+            <header>
+                <div class="head">
+                    <a href="https://www.alura.com.br/"><img id="logo"src="./Img/logo.png"></a>
+                    <h1>Decodificador</h1>
+                </div>
+            </header>
+
+            <div class="main">
+                <div>
+                    <textarea id="inputText" placeholder="Digite seu texto"></textarea>
+
+                    <div class="button">
+                        <h4 id="alert"> * Apenas letras minúsculas e sem acento</h4>
+                        <button id="btn-encrypt" onclick="cripto()">Criptografar</button>
+                        <button id="btn-decrypt" onclick="descripto()">Descriptografar</button>
+                    </div>
+                </div>
+
+                <div class="decoder">
+                
+                    <div id="mainInfo">
+                        <img id="illustration"src="./Img/illustration.png">
+                        <p id="message">Nenhuma mensagem encontrada</p>
+                        <p id="texInformation">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    </div>
+
+                    <div class="return">
+                        <textarea id="returnText" readonly placeholder=" "></textarea>
+
+                        <div id="btn-secondary">
+                            <button id="btn-copy" onclick="copy()">Copiar</button>
+                            <button id="btn-clear" onclick=" ">Limpar</button>
+                        </div>  
+                    </div>
+
+                </div>
+            </div>
+            
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+
+    <footer>
+        <div class="endPage">
+            <p class="copyright">&copy; Copyright Marcylene Barreto - 2022</p>
+        </div>
+    </footer>
+
+</html>
+
+
